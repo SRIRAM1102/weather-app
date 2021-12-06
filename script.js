@@ -54,10 +54,9 @@ function displayTemp(latlng)
 {
     let lat=latlng.split(",")[0];
     let lng=latlng.split(",")[1];
-    let apikey="3c254b719958d7d9ec662f90276c3bf0";
+    let apikey="7a4fd6060613a0904a2e615f34975075 ";
     let data1=fetch("https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lng+"&exclude=alert&appid="+apikey);
- 
     data1.then((response)=> response.json())
-    .then(result=>alert("The temperature here is "+result.current.temp));
+    .then(result=>alert("The temperature here is "+result.main.temp));
 }  
   
