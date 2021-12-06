@@ -1,0 +1,49 @@
+
+.card{
+    margin: 1rem;
+   
+}
+.row
+{
+    margin:2px;
+}
+
+.card-header
+{
+    text-align: center;
+   
+}
+
+.card-body
+{
+    background-image: linear-gradient(to right, #d8c6a1 , #445554);   
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+img
+{
+    height: 120px;width:200px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+.capital-div,.region-div,.countrycode-div
+{
+    color:white;
+    text-align: center;
+}
+
+.button-div
+{
+    text-align: center;
+    display: block;
+    margin:auto; 
+    width:200px;
+    background-image: linear-gradient(to right, #d8c6a1 , #445554);    
+    border-radius:5px;
+    border: white solid 1px;
+}
